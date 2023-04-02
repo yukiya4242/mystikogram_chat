@@ -92,7 +92,7 @@ a:hover {
   margin-left: 150px;
 }
 
-.columns .is-centered {
+.column .is-centered {
   justify-content: center;
 }
 
@@ -107,6 +107,11 @@ a:hover {
 
 .section {
   padding: 48px 24px;
+
+}
+
+section {
+  display: block;
 }
 
 .section.features {
@@ -140,3 +145,18 @@ img {
   flex: none;
   width: 50%;
 }
+
+.is-one-third {
+  width: 33.333%;
+}
+
+.column .is-desktop {
+  display: flex;
+}
+
+.column .is-one-third h2 {
+  font-size: 40px;
+  font-weight: 880px;
+  line-height: 44px;
+}
+
